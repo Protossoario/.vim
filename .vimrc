@@ -18,8 +18,10 @@ Plugin 'gmarik/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'Lokaltog/vim-distinguished'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
+Plugin 'garybernhardt/dotfiles', {'rtp': '.vim/colors'}
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -52,6 +54,9 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" Colorscheme
+colorscheme distinguished
 
 " Leader is now , 
 :let mapleader = ","
